@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Card Layout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+    }
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      max-width: 800px;
+    }
+    .card {
+      width: 300px;
+      margin: 20px;
+      padding: 15px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      text-align: center;
+    }
+    .card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 10px;
+      border: 2px solid black;
+    }
+    h2 {
+      color:blue;
+    }
+    p {
+      color:black;
+    
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card-container">
+    <div class="card">
+      <img src="/image/diwali-wishes-1572079970.jpg">
+      <h2>Happy Diwali!!!</h2>
+      <p>Wishing you a Diwali that shines as bright as the diyas and sparkles as brilliantly as the fireworks. Happy Diwali!</p>
+    </div>
+
+    <div class="card">
+      <img src="/image/images (1).jpg">
+      <h2>Happy New Year!!!!</h2>
+      <p>Wishing you a Happy New Year with the hope that you will have many blessings in the year to come.</p>
+    </div>
+
+   
+  </div>
+
+</body>
+</html>
